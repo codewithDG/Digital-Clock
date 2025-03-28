@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+    border: 2px solid #ffcc00;
+}
+
+h1 {
+    font-style: italic; /* Makes the heading cursive */
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+.clock {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #333, #555);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    border: 2px solid #ffcc00;
+}
+
+#time {
+    letter-spacing: 2px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 8px rgba(255, 204, 0, 0.8);
+}
